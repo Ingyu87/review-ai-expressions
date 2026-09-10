@@ -14,6 +14,20 @@
 
 이 저장소의 `SKILL.md`와 `agents` 폴더를 개인 Codex 스킬 폴더 아래 `review-ai-expressions` 폴더에 복사합니다. 기존에 설치되어 있다면 필요한 변경 사항을 확인한 후 업데이트합니다.
 
+### Claude Code
+
+PowerShell에서 다음 설치 스크립트를 실행하면 개인 스킬과 `/ai표현` 명령이 함께 설치됩니다.
+
+```powershell
+.\scripts\install-claude-code.ps1
+```
+
+설치 후 Claude Code에서 다음처럼 호출합니다.
+
+> /ai표현 검토할 파일이나 요청
+
+설치 스크립트는 `SKILL.md`를 `~/.claude/skills/review-ai-expressions/`에, 한글 명령 별칭을 `~/.claude/commands/ai표현.md`에 복사합니다. 다른 PC에서는 저장소를 내려받거나 업데이트한 뒤 같은 스크립트를 다시 실행합니다.
+
 ## 사용 예시
 
 검토 의견만 받을 때:
